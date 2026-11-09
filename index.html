@@ -6,8 +6,9 @@
   <title>Emirhan Okumuş — Product Developer</title>
   <meta name="description" content="Emirhan Okumuş — third-year Computer Engineering student and AI-first product developer. Games, board games and products built from idea to production.">
   <meta property="og:title" content="Emirhan Okumuş — Product Developer">
-  <meta property="og:description" content="AI-first product developer, Computer Engineering student, lifelong board gamer.">
-  <meta name="theme-color" content="#f6f1e7">
+  <meta property="og:description" content="AI-first product developer and Computer Engineering student.">
+  <meta name="theme-color" content="#0c0818">
+  <meta name="color-scheme" content="dark">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +17,16 @@
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Side images (wide screens), as on the 2025 site -->
+  <div class="side side-left" aria-hidden="true">
+    <img src="img/piano.jpg" alt="">
+  </div>
+  <div class="side side-right" aria-hidden="true">
+    <img src="img/chess.jpg" alt="">
+    <img src="img/gaming.jpg" alt="">
+    <img src="img/music.jpg" alt="">
+  </div>
 
   <header class="top">
     <div class="wrap top-inner">
@@ -31,27 +42,16 @@
 
   <main id="main">
     <section class="hero">
-      <svg class="hexes" viewBox="0 0 300 260" aria-hidden="true">
-        <g fill="none" stroke-width="2">
-          <polygon class="h1" points="75,10 125,10 150,53 125,96 75,96 50,53"/>
-          <polygon class="h2" points="150,53 200,53 225,96 200,139 150,139 125,96"/>
-          <polygon class="h3" points="75,96 125,96 150,139 125,182 75,182 50,139"/>
-          <polygon class="h4" points="225,10 275,10 300,53 275,96 225,96 200,53"/>
-          <polygon class="h5" points="150,139 200,139 225,182 200,225 150,225 125,182"/>
-        </g>
-        <circle class="pip" cx="175" cy="96" r="5"/>
-      </svg>
       <div class="wrap">
-        <p class="eyebrow">Product Developer · Ankara, Türkiye (remote)</p>
-        <h1>Emirhan Okumuş</h1>
+        <h1 class="glitch" data-text="Emirhan Okumuş">Emirhan Okumuş</h1>
         <p class="lead">
           AI-first product developer and third-year Computer Engineering student.
           I take products from idea to production — building with agentic coding tools
           (Claude Code, Gemini) and putting automated checks around AI-generated output before it ships.
         </p>
         <p class="lead lead-2">
-          Highly interested in games and a lifelong board gamer —
-          <strong>3rd place at an Ankara Catan tournament</strong>. I want to turn product ideas into features real players use.
+          Highly interested in games and a lifelong board gamer (3rd place at an Ankara Catan tournament).
+          I want to turn product ideas into features real players use.
         </p>
         <div class="cta">
           <a class="btn btn-primary" href="Emirhan_Okumus_CV.pdf" download>Download CV (PDF)</a>
@@ -70,10 +70,10 @@
               <h3>Yaşam Çarkı</h3>
               <span class="date">Oct 2026 – Present</span>
             </div>
-            <p class="kicker">Life-simulation browser game · <span class="lang">in Turkish</span></p>
+            <p class="kicker">Life-simulation browser game</p>
             <p>A turn-based life-sim played in the browser: monthly choices, dice checks and an event deck. I'm improving it based on playtester feedback.</p>
             <ul class="tags"><li>JavaScript</li><li>Node.js</li></ul>
-            <a class="link" href="https://yasam-carki.onrender.com" target="_blank" rel="noopener">Play it (Turkish) <span aria-hidden="true">↗</span></a>
+            <a class="link" href="https://yasam-carki.onrender.com" target="_blank" rel="noopener">Play it <span aria-hidden="true">↗</span></a>
           </article>
 
           <article class="card">
@@ -85,6 +85,7 @@
             <p>Co-founder and product lead in a 3-person team. Designed the creator–brand marketplace and the service that turns YouTube, TikTok and Instagram views into CPM-based payouts, with bot-inflation detection.</p>
             <p>Designed the payout flow on iyzico's marketplace infrastructure; set up GitHub Actions CI and Docker deployment. Launched; development paused.</p>
             <ul class="tags"><li>Next.js</li><li>Node.js</li><li>PostgreSQL</li></ul>
+            <a class="link" href="https://kesitly.com" target="_blank" rel="noopener">kesitly.com <span aria-hidden="true">↗</span></a>
           </article>
 
           <article class="card">
@@ -107,6 +108,7 @@
             <p>Shipped and maintain a prayer-times app; 100% of its ad revenue is donated to Gaza relief.</p>
             <p>Automated official prayer times and daily content with GitHub Actions; added Crashlytics monitoring, notifications and shareable verse cards behind a clean, minimalist UI.</p>
             <ul class="tags"><li>Flutter</li><li>Firebase</li></ul>
+            <a class="link" href="https://birizapp.com.tr/" target="_blank" rel="noopener">birizapp.com.tr <span aria-hidden="true">↗</span></a>
           </article>
 
         </div>
@@ -156,6 +158,12 @@
             <dt>Off the keyboard</dt>
             <dd>Board games (Catan, competitive play), chess, piano, karate, motorsport.</dd>
           </dl>
+          <div class="mini-gallery" aria-hidden="true">
+            <img src="img/chess.jpg" alt="" loading="lazy">
+            <img src="img/gaming.jpg" alt="" loading="lazy">
+            <img src="img/music.jpg" alt="" loading="lazy">
+            <img src="img/piano.jpg" alt="" loading="lazy">
+          </div>
         </div>
         <div>
           <h2>Toolkit</h2>
